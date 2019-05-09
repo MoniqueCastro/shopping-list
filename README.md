@@ -1,2 +1,2 @@
 # shopping-list
-Exercise from Udemy course
+An interactive shopping list, where you can add, remove and cross itens.
