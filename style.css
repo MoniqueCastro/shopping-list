@@ -1,0 +1,119 @@
+#first {
+  font-family: 'Pacifico', cursive;
+}
+
+#userinput {
+  font-size: 3vh;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#userinput:hover {
+  box-shadow: 0 5px #5FB0BF;
+  transform: translateY(1px);
+}
+
+#enter {
+  background-color: #93DCD9; /* light blue */
+  border: none;
+  color: white;
+  padding: 1.5vh 3vh;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 1px grey;
+  display: inline-block;
+  font-size: 3vh;
+}
+
+#enter:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#enter:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+div.logo{
+  position: sticky;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #026873;
+  background-image:
+  linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+  linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+  background-size: 13px, 29px, 37px, 53px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Satisfy', cursive;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  padding-top: 2vh;
+  padding-bottom: none;
+
+}
+
+header {
+  font-size: 10vh;
+  text-align: left;
+  text-shadow: 3px 2px grey;
+  color: white;
+  background-image: linear-gradient(to right, rgba(141, 207, 219), rgba(95, 176, 191));
+}
+
+p {
+  font-size: 5vh;
+  text-shadow: 2px 1px #4E4F4F;
+}
+
+ul {
+  font-size: 4vh;
+  list-style-type:none;
+  text-align: left;
+  text-indent: 8vh;
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  margin-left:20vw; 
+  margin-right:20vw;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+}
+
+/* the "checked" symbol*/
+.done {
+  text-decoration: line-through;
+}
+
+
+/* Style the x button */
+.close {
+  font-family: "Times New Roman", Times, serif;
+  right: 10px;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  cursor: pointer;
+}
