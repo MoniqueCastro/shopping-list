@@ -1,4 +1,4 @@
-var button = document.getElementById("enter");
+var button = document.getElementById("button");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var myNodelist = document.getElementsByTagName("LI");
@@ -74,7 +74,3 @@ function addListAfterKeypress(event) {
 button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
-
-
-
-

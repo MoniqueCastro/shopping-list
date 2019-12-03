@@ -1,9 +1,9 @@
-#first {
+#mainText {
   font-family: 'Pacifico', cursive;
 }
 
 #userinput {
-  font-size: 3vh;
+  font-size: 30px;
   text-align: center;
   border-radius: 20px;
 }
@@ -13,31 +13,37 @@
   transform: translateY(1px);
 }
 
-#enter {
+#button {
   background-color: #93DCD9; /* light blue */
   border: none;
   color: white;
-  padding: 1.5vh 3vh;
+  padding: 10px 15px;
   border-radius: 20px;
   text-align: center;
   text-decoration: none;
   text-shadow: 2px 1px grey;
   display: inline-block;
-  font-size: 3vh;
+  font-size: 20px;
 }
 
-#enter:hover {
+#button:hover {
   cursor: pointer;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#enter:active {
+#button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-div.logo{
+.navbar{
   position: sticky;
+  display: inline-flex;
+  background-image: linear-gradient(to right, rgba(141, 207, 219), rgba(95, 176, 191));
+  width: 100%;
+  font-size: 20px;
+  text-shadow: 3px 2px grey;
+  color: white;
 }
 
 html, body {
@@ -46,7 +52,7 @@ html, body {
 }
 
 body {
-  background-color: #026873;
+  background-color: #106069;
   background-image:
   linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
   linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
@@ -61,31 +67,23 @@ body {
 img {
   width: 75px;
   height: 75px;
-  padding-right: 3vh;
-  padding-left: 3vh;
-  padding-top: 2vh;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 18px;
   padding-bottom: none;
 
 }
 
-header {
-  font-size: 10vh;
-  text-align: left;
-  text-shadow: 3px 2px grey;
-  color: white;
-  background-image: linear-gradient(to right, rgba(141, 207, 219), rgba(95, 176, 191));
-}
-
 p {
-  font-size: 5vh;
+  font-size: 40px;
   text-shadow: 2px 1px #4E4F4F;
 }
 
 ul {
-  font-size: 4vh;
+  font-size: 35px;
   list-style-type:none;
   text-align: left;
-  text-indent: 8vh;
+  text-indent: 50px;
   background-color: #fff;
   background-image:
   linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
