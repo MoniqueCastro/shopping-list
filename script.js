@@ -5,7 +5,6 @@ var myNodelist = document.getElementsByTagName("LI");
 var close = document.getElementsByClassName("close");
 
 // Create a "x" button and append it to each list item
-
 for (i = 0; i < myNodelist.length; i++) {
 	var span = document.createElement("SPAN");
 	var txt = document.createTextNode("\u00D7");
@@ -29,8 +28,6 @@ ul.addEventListener('click', function(ev) {
 	}
 }, false);
 
-
-// Adds new list item
 function inputLength() {
 	return input.value.length;
 }
@@ -55,7 +52,6 @@ function createListElement() {
   	}
 }
 
-// Adds by click
 function addListAfterClick() {
 	if (inputLength() > 0) {
 		createListElement();
@@ -63,7 +59,6 @@ function addListAfterClick() {
 	}
 }
 
-// Adds by keypress
 function addListAfterKeypress(event) {
 	if (inputLength() > 0 && event.keyCode === 13) {
 		createListElement();
