@@ -1,5 +1,5 @@
 # shopping-list
-An interactive and responsive shopping list, where you can add, remove and cross off itens.
+An interactive and responsive shopping list, where you can add, remove and cross out items.
 This project was created using HTML, CSS and JavaScript.
 
 ## How to use?
